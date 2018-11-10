@@ -138,11 +138,13 @@
 
 
         <!--  H E A D E R -->
-                    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0;">
+            <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0;">
                 <div class="container" style="text-align: center;">
                     <h1 class="deity-font-2 d-inline display-1">DEITY</h1>
                     <h1 class="clan-font-2 d-inline display-1">CLAN</h1>
+                    <i class="fas fa-angle-down mx-auto" style="color:rgba(255,255,255,.45); display:block; font-size:100px; margin-top:300px"></i>
                 </div>
+
             </div>
         
 

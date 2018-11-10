@@ -51,7 +51,7 @@ button:focus {
 
 nav {
     border-bottom: 4px #003391 solid;
-    background-color: #0e0e0b;
+    background-color: rgba(14,14,11, .9);
     
 }
 
@@ -140,10 +140,6 @@ nav {
 /* =================== MAIN STYLES ================== */
 
 .jumbotron {
-	/*background-image: url('../img/purple-splash.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;*/
     height:700px;
     padding: 0;
     background: linear-gradient(#003391, transparent 95%),
@@ -375,7 +371,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 0;
     border-top: 4px solid #003391;
-    background-color: #313140;
+    background-color: #0e0e0b;
 }
 
 .footer-item {
