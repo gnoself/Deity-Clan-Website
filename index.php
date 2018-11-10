@@ -233,7 +233,7 @@
         </div>
 -->
 
-    	<div class="container" style="margin-top: 60px;margin-bottom:60px;border: 2px solid rgba(142,142,142,.25);border-radius:5px;background-color: rgba(209,209,209,.08);">
+    	<div class="container" style="margin-top: 60px;margin-bottom:60px;border: 2px solid rgba(142,142,142,.25);border-radius:5px;background-color: #313140;">
             <h4 class="text-center" style="color:white;padding-bottom:20px;padding-top:4px;">Featured</h4>
             <div class="row">
                 <div class="col" style="background-color: #0e0b0b;">

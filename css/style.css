@@ -1,11 +1,12 @@
 /* COLORS /
-/
-Balls.  Ballsacks.  Is that one word?  Boobies.  8008135.  
-#0e0b0b - black
-#000A1B - dark bluegray
-#d1d1d1 - light gray
-#001946 - dark blue
-#003391 - blue
+
+  
+#0e0b0b - smoky black
+#001946 - oxford blue
+#003391 - airforce (usaf) blue
+#313140 - gunmetal
+#ffffff = white
+
 
 */
 
@@ -38,7 +39,7 @@ html {
 
 body {
     min-height: 100%;
-    background-color: #0e0b0b;
+    background-color: #fff;
 }
 
 button:focus {
@@ -50,7 +51,7 @@ button:focus {
 
 nav {
     border-bottom: 4px #003391 solid;
-    background-color: #0e0b0b;
+    background-color: #0e0e0b;
     
 }
 
@@ -139,12 +140,16 @@ nav {
 /* =================== MAIN STYLES ================== */
 
 .jumbotron {
-	background-image: url('../img/purple-splash.jpg');
+	/*background-image: url('../img/purple-splash.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     height:700px;
     padding: 0;
+    background: linear-gradient(#003391, transparent 95%),
+                linear-gradient(0deg, #fff, transparent),
+                #003391 url('../img/purple-splash.jpg') no-repeat center;
+    background-size: cover;
 }
 
 .jumbotron div {
@@ -154,28 +159,28 @@ nav {
 
 .deity-font-1 {
 	font: 2rem 'Bugfast';
-	color: #003391;
+	color: #fff;
 	letter-spacing: .2rem;
     display: inline;
 }
 
 .clan-font-1 {
 	font: 1.9rem Helvetica;
-	color: #003391;
+	color: #fff;
 	letter-spacing: .2rem;
     display: inline;
 }
 
 .deity-font-2 {
     font-family: 'Bugfast';
-    color: #d1d1d1;
+    color: #fff;
     letter-spacing: .3rem;
     
 }
 
 .clan-font-2 {
     font-family: Helvetica;
-    color: #d1d1d1;
+    color: #fff;
     letter-spacing: .3rem;
     
     
@@ -370,7 +375,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 0;
     border-top: 4px solid #003391;
-    background-color: #000a1b;
+    background-color: #313140;
 }
 
 .footer-item {
@@ -391,7 +396,7 @@ footer {
 
 #copyright {
     padding-bottom: 10px;
-    color: #003391;
+    color: #fff;
     margin-bottom: 0;
 }
 
